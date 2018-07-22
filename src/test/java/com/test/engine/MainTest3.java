@@ -32,8 +32,8 @@ public class MainTest3 {
 		BufferedReader bufferedReader = new BufferedReader(new StringReader(json));
 		Main.setLogFile(bufferedReader);
 		main.process();
-		Mockito.verify(main, Mockito.times(2)).coupling(Matchers.any(EventEntry.class));
-		PowerMockito.verifyStatic(Mockito.times(2));
+		Mockito.verify(main, Mockito.times(2)).coupling(Matchers.any(EventEntry.class));		
+		PowerMockito.verifyStatic(Engine.class, Mockito.times(2));
 		Engine.makeEventEntry(Matchers.any(String.class));
 	}
 

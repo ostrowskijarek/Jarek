@@ -28,10 +28,10 @@ public class MainTest2 {
 		eeStartId.setId("0001");
 		main.coupling(eeStartId);
 		assertEquals(Main.getUncoupledEventsMap().size(), 1);
-
-		PowerMockito.verifyStatic(Mockito.times(0));
+		
+		PowerMockito.verifyStatic(Engine.class, Mockito.times(0));
 		Engine.process(Matchers.any(EventEntry.class), Matchers.any(EventEntry.class));
-		PowerMockito.verifyStatic(Mockito.times(0));
+		PowerMockito.verifyStatic(Engine.class, Mockito.times(0));
 		Engine.store(Matchers.any(EventEntry.class));
 
 		EventEntry eeFinishedId = new EventEntry();
@@ -39,9 +39,9 @@ public class MainTest2 {
 		main.coupling(eeFinishedId);
 		assertEquals(Main.getUncoupledEventsMap().size(), 0);
 
-		PowerMockito.verifyStatic(Mockito.times(1));
+		PowerMockito.verifyStatic(Engine.class, Mockito.times(1));
 		Engine.process(Matchers.any(EventEntry.class), Matchers.any(EventEntry.class));
-		PowerMockito.verifyStatic(Mockito.times(1));
+		PowerMockito.verifyStatic(Engine.class, Mockito.times(1));
 		Engine.store(Matchers.any(EventEntry.class));
 
 	}
