@@ -1,0 +1,46 @@
+¾16:02:31.552 [Test worker] DEBUG com.test.engine.Engine - makeEventEntry called: {"id":"scsmbstgra", "state":"STARTED", "type":"APPLICATION_LOG", "host":"12345", "timestamp":1491377495212}
+b16:02:31.568 [Test worker] DEBUG com.test.engine.Engine - casted as: EventEntryApplicationServer
+`16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - makeEventEntry returning: scsmbstgra
+•16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - makeEventEntry called: {"id":"scsmbstgrb", "state":"FINISHED", "timestamp":1491377495216}
+Q16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - casted as: EventEntry
+`16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - makeEventEntry returning: scsmbstgrb
+Ž16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - makeEventEntry called: {"id":"scsmbstgrate":"FINISHED", "timestamp":1491377495216}
+Q16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - casted as: EventEntry
+I16:02:33.677 [Test worker] DEBUG com.test.engine.Engine - storing: null
+H16:02:33.693 [Test worker] DEBUG com.test.engine.Engine - stored: null
+j16:02:33.724 [Test worker] DEBUG com.test.engine.Engine - process called with: firstEe: id1 secondEe:id1
+e16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - their timestamps: firstEe: 10 secondEe:15
+G16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - duration: 5
+K16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - alert set: true
+P16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - process returns: id1
+j16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - process called with: firstEe: id1 secondEe:id1
+e16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - their timestamps: firstEe: 10 secondEe:15
+G16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - duration: 5
+K16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - alert set: true
+a16:02:33.740 [Test worker] WARN  com.test.engine.Engine - possible duplicate status for id: id1
+J16:02:41.349 [Test worker] DEBUG com.test.engine.Main - Coupling started
+]16:02:41.349 [Test worker] DEBUG com.test.engine.Main - This event is first of his ID: 0001
+K16:02:41.349 [Test worker] DEBUG com.test.engine.Main - Coupling finished
+J16:02:41.396 [Test worker] DEBUG com.test.engine.Main - Coupling started
+X16:02:41.396 [Test worker] DEBUG com.test.engine.Main - Matching event found for: 0001
+Z16:02:41.396 [Test worker] DEBUG com.test.engine.Main - Coupled and ready to store: 0001
+K16:02:41.396 [Test worker] DEBUG com.test.engine.Main - Coupling finished
+
+	I16:02:44.428 [Test worker] DEBUG com.test.engine.Main - Process started
+
+	Q16:02:44.459 [Test worker] DEBUG com.test.engine.Main - Awaiting termination...
+
+	J16:02:44.459 [pool-7-thread-1] DEBUG com.test.engine.Main - Iteration: 1
+
+	o16:02:44.459 [pool-7-thread-1] DEBUG com.test.engine.Main - Trying to create EventEntry from the current line
+
+	w16:02:44.490 [pool-7-thread-1] DEBUG com.test.engine.Main - EventEntry created, sending over for the coupling process
+
+	J16:02:44.490 [pool-7-thread-1] DEBUG com.test.engine.Main - Iteration: 2
+
+	o16:02:44.490 [pool-7-thread-1] DEBUG com.test.engine.Main - Trying to create EventEntry from the current line
+
+	w16:02:44.490 [pool-7-thread-1] DEBUG com.test.engine.Main - EventEntry created, sending over for the coupling process
+
+	\16:02:44.490 [Test worker] DEBUG com.test.engine.Main - Process finished, All threads done
+n16:02:44.803 [Test worker] WARN  com.test.engine.Main - Please provide log file path as the first parameter.

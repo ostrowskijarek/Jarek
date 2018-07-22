@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.engine.EngineTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-07-22T14:02:29" hostname="Jarek-PC" time="4.62">
+  <properties/>
+  <testcase name="makeEventEntryTest" classname="com.test.engine.EngineTest" time="3.647"/>
+  <testcase name="storeTest" classname="com.test.engine.EngineTest" time="0.947"/>
+  <testcase name="processTest" classname="com.test.engine.EngineTest" time="0.015"/>
+  <system-out><![CDATA[16:02:31.552 [Test worker] DEBUG com.test.engine.Engine - makeEventEntry called: {"id":"scsmbstgra", "state":"STARTED", "type":"APPLICATION_LOG", "host":"12345", "timestamp":1491377495212}
+16:02:31.568 [Test worker] DEBUG com.test.engine.Engine - casted as: EventEntryApplicationServer
+16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - makeEventEntry returning: scsmbstgra
+16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - makeEventEntry called: {"id":"scsmbstgrb", "state":"FINISHED", "timestamp":1491377495216}
+16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - casted as: EventEntry
+16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - makeEventEntry returning: scsmbstgrb
+16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - makeEventEntry called: {"id":"scsmbstgrate":"FINISHED", "timestamp":1491377495216}
+16:02:32.756 [Test worker] DEBUG com.test.engine.Engine - casted as: EventEntry
+16:02:33.677 [Test worker] DEBUG com.test.engine.Engine - storing: null
+16:02:33.693 [Test worker] DEBUG com.test.engine.Engine - stored: null
+16:02:33.724 [Test worker] DEBUG com.test.engine.Engine - process called with: firstEe: id1 secondEe:id1
+16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - their timestamps: firstEe: 10 secondEe:15
+16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - duration: 5
+16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - alert set: true
+16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - process returns: id1
+16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - process called with: firstEe: id1 secondEe:id1
+16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - their timestamps: firstEe: 10 secondEe:15
+16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - duration: 5
+16:02:33.740 [Test worker] DEBUG com.test.engine.Engine - alert set: true
+16:02:33.740 [Test worker] WARN  com.test.engine.Engine - possible duplicate status for id: id1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

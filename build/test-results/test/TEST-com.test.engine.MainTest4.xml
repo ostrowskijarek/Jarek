@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.engine.MainTest4" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-07-22T14:02:44" hostname="Jarek-PC" time="0.244">
+  <properties/>
+  <testcase name="testInitiateFileNotFoundException" classname="com.test.engine.MainTest4" time="0.239"/>
+  <testcase name="testInitiateProvidePathException" classname="com.test.engine.MainTest4" time="0.005"/>
+  <system-out><![CDATA[16:02:44.803 [Test worker] WARN  com.test.engine.Main - Please provide log file path as the first parameter.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.engine.MainTest2" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-07-22T14:02:39" hostname="Jarek-PC" time="1.825">
+  <properties/>
+  <testcase name="testCoupling" classname="com.test.engine.MainTest2" time="1.825"/>
+  <system-out><![CDATA[16:02:41.349 [Test worker] DEBUG com.test.engine.Main - Coupling started
+16:02:41.349 [Test worker] DEBUG com.test.engine.Main - This event is first of his ID: 0001
+16:02:41.349 [Test worker] DEBUG com.test.engine.Main - Coupling finished
+16:02:41.396 [Test worker] DEBUG com.test.engine.Main - Coupling started
+16:02:41.396 [Test worker] DEBUG com.test.engine.Main - Matching event found for: 0001
+16:02:41.396 [Test worker] DEBUG com.test.engine.Main - Coupled and ready to store: 0001
+16:02:41.396 [Test worker] DEBUG com.test.engine.Main - Coupling finished
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

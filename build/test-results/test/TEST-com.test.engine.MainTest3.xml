@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.engine.MainTest3" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-07-22T14:02:42" hostname="Jarek-PC" time="1.847">
+  <properties/>
+  <testcase name="testProcess" classname="com.test.engine.MainTest3" time="1.847"/>
+  <system-out><![CDATA[16:02:44.428 [Test worker] DEBUG com.test.engine.Main - Process started
+16:02:44.459 [Test worker] DEBUG com.test.engine.Main - Awaiting termination...
+16:02:44.459 [pool-7-thread-1] DEBUG com.test.engine.Main - Iteration: 1
+16:02:44.459 [pool-7-thread-1] DEBUG com.test.engine.Main - Trying to create EventEntry from the current line
+16:02:44.490 [pool-7-thread-1] DEBUG com.test.engine.Main - EventEntry created, sending over for the coupling process
+16:02:44.490 [pool-7-thread-1] DEBUG com.test.engine.Main - Iteration: 2
+16:02:44.490 [pool-7-thread-1] DEBUG com.test.engine.Main - Trying to create EventEntry from the current line
+16:02:44.490 [pool-7-thread-1] DEBUG com.test.engine.Main - EventEntry created, sending over for the coupling process
+16:02:44.490 [Test worker] DEBUG com.test.engine.Main - Process finished, All threads done
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.engine.MainTest1" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-07-22T14:02:35" hostname="Jarek-PC" time="2.965">
+  <properties/>
+  <testcase name="testGo" classname="com.test.engine.MainTest1" time="2.965"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
